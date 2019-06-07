@@ -1,0 +1,53 @@
+{
+  "kind": "shell",
+  "version": "1.0.1",
+  "spec": {
+    "main": "npm",
+    "args": [
+      {
+        "command": "install",
+        "args": [
+          {
+            "name": "global",
+            "aka": "g",
+            "type": "option",
+            "useValue": false
+          },
+          {
+            "name": "g",
+            "aka": "global",
+            "type": "flag"
+          }
+        ]
+      },
+      {
+        "command": "run",
+        "args": [
+          {
+            "name": "script",
+            "type": "value",
+            "required": true
+          }
+        ]
+      },
+      {
+        "command": "version",
+        "args": [
+          {
+            "name": "semver",
+            "type": "value",
+            "choices": [
+              "patch",
+              "minor",
+              "major"
+            ]
+          }
+        ]
+      },
+      {
+        "command": "publish",
+        "args": []
+      }
+    ]
+  }
+}
