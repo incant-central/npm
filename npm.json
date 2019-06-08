@@ -3,6 +3,14 @@
     "version": "1.0.1",
     "spec": {
         "main": "npm",
+        "collections": {
+            "run": [
+                {
+                    "name": "script",
+                    "type": "value"
+                }
+            ]
+        },
         "commands": {
             "install": {
                 "args": [
@@ -22,9 +30,16 @@
             "run": {
                 "args": [
                     {
-                        "name": "script",
-                        "type": "value",
-                        "required": true
+                        "name": "run",
+                        "type": "collection"
+                    }
+                ]
+            },
+            "run-script": {
+                "args": [
+                    {
+                        "name": "run",
+                        "type": "collection"
                     }
                 ]
             },
