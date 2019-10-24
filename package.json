@@ -1,6 +1,6 @@
 {
   "name": "@targets/npm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NPM ShellSpec target",
   "main": "npm.json",
   "scripts": {
