@@ -52,7 +52,8 @@
                             "patch",
                             "minor",
                             "major"
-                        ]
+                        ],
+                        "required": true
                     }
                 ]
             },
