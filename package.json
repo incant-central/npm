@@ -1,6 +1,6 @@
 {
   "name": "@incant/npm",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "NPM ShellSpec",
   "main": "npm.json",
   "scripts": {
