@@ -1,6 +1,5 @@
 {
-    "kind": "shell",
-    "version": "1.0.1",
+    "kind": "shellspec",
     "spec": {
         "main": "npm",
         "collections": {
