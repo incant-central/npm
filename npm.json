@@ -61,6 +61,11 @@
                     {
                         "name": "access",
                         "type": "option"
+                    },
+                    {
+                        "name": "dry-run",
+                        "type": "option",
+                        "useValue": false
                     }
                 ]
             }
